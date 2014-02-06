@@ -1,0 +1,59 @@
+/* inicio das definicoes do layout para o fieldset dos inputs de cadastro */
+fieldset {
+	margin-bottom: 10px;
+	min-height: 100px;
+}
+
+fieldset,legend {
+	border: 1px solid #42A823;
+	border-radius: 12px;
+}
+
+legend {
+	background: #8AB66B;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #2C5E26;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+/* fim das definicoes do layout para o fieldset dos inputs de cadastro */
+
+/* inicio das definicoes do layout de posicionamento dos campos e formatacao dos labels */
+.label,.input {
+	float: left;
+	height: 22px;
+}
+
+.input .checkbox {
+	width: 15px;
+}
+
+.input input[type='radio'] {
+	width: 15px;
+}
+
+.label {
+	font-weight: bold;
+	margin-right: 1%;
+	text-align: right;
+	width: 15%;
+}
+
+.label_radio_button {
+	float: left;
+	margin-left: 0.5%;
+	margin-right: 2%;
+	text-align: left;
+	width: 10%;
+}
+
+.input input {
+	width: 100%;
+}
+
+input:focus,select:focus {
+	box-shadow: 0 0 2px 1px #6CAD5D;
+}
+/* fim das definicoes do layout de posicionamento dos campos e formatacao dos labels */
